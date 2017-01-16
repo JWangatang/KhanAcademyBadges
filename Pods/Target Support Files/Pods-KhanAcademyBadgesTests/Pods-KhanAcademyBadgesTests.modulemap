@@ -1,0 +1,6 @@
+framework module Pods_KhanAcademyBadgesTests {
+  umbrella header "Pods-KhanAcademyBadgesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

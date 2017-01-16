@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83B95C8674C9F9F2720691DE /* Pods_KhanAcademyBadgesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B17F08A2014D3A19C10C3 /* Pods_KhanAcademyBadgesTests.framework */; };
+		AB9E719A1E2C4350007F85C1 /* CategoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E71991E2C4350007F85C1 /* CategoryDetailsVC.swift */; };
+		ABCD82901E2420D8006483E8 /* BadgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD828F1E2420D8006483E8 /* BadgeCell.swift */; };
+		ABCDF7F91E29E5C40025AE00 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF7F81E29E5C40025AE00 /* Badge.swift */; };
+		ABCDF7FE1E29F3660025AE00 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF7FD1E29F3660025AE00 /* Category.swift */; };
 		ABE7FBB91E20401400F9620B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FBB81E20401400F9620B /* AppDelegate.swift */; };
-		ABE7FBBB1E20401400F9620B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FBBA1E20401400F9620B /* ViewController.swift */; };
 		ABE7FBBE1E20401400F9620B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE7FBBC1E20401400F9620B /* Main.storyboard */; };
 		ABE7FBC01E20401400F9620B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABE7FBBF1E20401400F9620B /* Assets.xcassets */; };
 		ABE7FBC31E20401400F9620B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABE7FBC11E20401400F9620B /* LaunchScreen.storyboard */; };
 		ABE7FBCE1E20401400F9620B /* KhanAcademyBadgesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FBCD1E20401400F9620B /* KhanAcademyBadgesTests.swift */; };
+		ABE7FBDD1E2047ED00F9620B /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FBDC1E2047ED00F9620B /* CategoriesVC.swift */; };
+		ABE7FBDF1E20480900F9620B /* BadgesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FBDE1E20480900F9620B /* BadgesVC.swift */; };
+		ABE7FBE11E2049EE00F9620B /* BadgeDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABE7FBE01E2049EE00F9620B /* BadgeDetailsVC.swift */; };
+		D36DB954CAC69517F890D081 /* Pods_KhanAcademyBadges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6400B4B624E07E6BE4C85B69 /* Pods_KhanAcademyBadges.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F6B17F08A2014D3A19C10C3 /* Pods_KhanAcademyBadgesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KhanAcademyBadgesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6400B4B624E07E6BE4C85B69 /* Pods_KhanAcademyBadges.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KhanAcademyBadges.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		742C8EC5D050067E12C46E8C /* Pods-KhanAcademyBadges.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhanAcademyBadges.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KhanAcademyBadges/Pods-KhanAcademyBadges.debug.xcconfig"; sourceTree = "<group>"; };
+		9D7D2C5B5D432ABB51904A4C /* Pods-KhanAcademyBadges.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhanAcademyBadges.release.xcconfig"; path = "Pods/Target Support Files/Pods-KhanAcademyBadges/Pods-KhanAcademyBadges.release.xcconfig"; sourceTree = "<group>"; };
+		AB9E71991E2C4350007F85C1 /* CategoryDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailsVC.swift; sourceTree = "<group>"; };
+		ABCD828F1E2420D8006483E8 /* BadgeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeCell.swift; sourceTree = "<group>"; };
+		ABCDF7F81E29E5C40025AE00 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		ABCDF7FD1E29F3660025AE00 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		ABE7FBB51E20401400F9620B /* KhanAcademyBadges.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhanAcademyBadges.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE7FBB81E20401400F9620B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABE7FBBA1E20401400F9620B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ABE7FBBD1E20401400F9620B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABE7FBBF1E20401400F9620B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABE7FBC21E20401400F9620B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +51,11 @@
 		ABE7FBC91E20401400F9620B /* KhanAcademyBadgesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KhanAcademyBadgesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABE7FBCD1E20401400F9620B /* KhanAcademyBadgesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KhanAcademyBadgesTests.swift; sourceTree = "<group>"; };
 		ABE7FBCF1E20401400F9620B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABE7FBDC1E2047ED00F9620B /* CategoriesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
+		ABE7FBDE1E20480900F9620B /* BadgesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgesVC.swift; sourceTree = "<group>"; };
+		ABE7FBE01E2049EE00F9620B /* BadgeDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeDetailsVC.swift; sourceTree = "<group>"; };
+		C6F112CC193798565143591E /* Pods-KhanAcademyBadgesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhanAcademyBadgesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KhanAcademyBadgesTests/Pods-KhanAcademyBadgesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4684CBD63D85F0302C714ED /* Pods-KhanAcademyBadgesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhanAcademyBadgesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KhanAcademyBadgesTests/Pods-KhanAcademyBadgesTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36DB954CAC69517F890D081 /* Pods_KhanAcademyBadges.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +71,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83B95C8674C9F9F2720691DE /* Pods_KhanAcademyBadgesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03983C2B2F3E6F4585FC2CC5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				742C8EC5D050067E12C46E8C /* Pods-KhanAcademyBadges.debug.xcconfig */,
+				9D7D2C5B5D432ABB51904A4C /* Pods-KhanAcademyBadges.release.xcconfig */,
+				C6F112CC193798565143591E /* Pods-KhanAcademyBadgesTests.debug.xcconfig */,
+				D4684CBD63D85F0302C714ED /* Pods-KhanAcademyBadgesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DF21912DE4316F8F518C797 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6400B4B624E07E6BE4C85B69 /* Pods_KhanAcademyBadges.framework */,
+				5F6B17F08A2014D3A19C10C3 /* Pods_KhanAcademyBadgesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABCD828E1E241EEE006483E8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD82911E2426A9006483E8 /* Cells */,
+				ABE7FBDC1E2047ED00F9620B /* CategoriesVC.swift */,
+				AB9E71991E2C4350007F85C1 /* CategoryDetailsVC.swift */,
+				ABE7FBDE1E20480900F9620B /* BadgesVC.swift */,
+				ABE7FBE01E2049EE00F9620B /* BadgeDetailsVC.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		ABCD82911E2426A9006483E8 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD828F1E2420D8006483E8 /* BadgeCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		ABCDF7FA1E29E5CD0025AE00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABCDF7F81E29E5C40025AE00 /* Badge.swift */,
+				ABCDF7FD1E29F3660025AE00 /* Category.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		ABE7FBAC1E20401400F9620B = {
 			isa = PBXGroup;
 			children = (
 				ABE7FBB71E20401400F9620B /* KhanAcademyBadges */,
 				ABE7FBCC1E20401400F9620B /* KhanAcademyBadgesTests */,
 				ABE7FBB61E20401400F9620B /* Products */,
+				03983C2B2F3E6F4585FC2CC5 /* Pods */,
+				3DF21912DE4316F8F518C797 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +150,10 @@
 		ABE7FBB71E20401400F9620B /* KhanAcademyBadges */ = {
 			isa = PBXGroup;
 			children = (
+				ABCD828E1E241EEE006483E8 /* View Controllers */,
 				ABE7FBB81E20401400F9620B /* AppDelegate.swift */,
-				ABE7FBBA1E20401400F9620B /* ViewController.swift */,
 				ABE7FBBC1E20401400F9620B /* Main.storyboard */,
+				ABCDF7FA1E29E5CD0025AE00 /* Model */,
 				ABE7FBBF1E20401400F9620B /* Assets.xcassets */,
 				ABE7FBC11E20401400F9620B /* LaunchScreen.storyboard */,
 				ABE7FBC41E20401400F9620B /* Info.plist */,
@@ -103,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABE7FBD21E20401400F9620B /* Build configuration list for PBXNativeTarget "KhanAcademyBadges" */;
 			buildPhases = (
+				6F2BA7CB367A8E2CAF17197F /* [CP] Check Pods Manifest.lock */,
 				ABE7FBB11E20401400F9620B /* Sources */,
 				ABE7FBB21E20401400F9620B /* Frameworks */,
 				ABE7FBB31E20401400F9620B /* Resources */,
+				981B8FB7DA59DCD2C8E93118 /* [CP] Embed Pods Frameworks */,
+				62A1D5DBF08F2BBAA26D5BA8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +197,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ABE7FBD51E20401400F9620B /* Build configuration list for PBXNativeTarget "KhanAcademyBadgesTests" */;
 			buildPhases = (
+				CE741BE12AA29D9A613EC42E /* [CP] Check Pods Manifest.lock */,
 				ABE7FBC51E20401400F9620B /* Sources */,
 				ABE7FBC61E20401400F9620B /* Frameworks */,
 				ABE7FBC71E20401400F9620B /* Resources */,
+				35FF804F9F4A23FFEC41D9D7 /* [CP] Embed Pods Frameworks */,
+				6CA6A0AC3F8BF5214A3E24F6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +276,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35FF804F9F4A23FFEC41D9D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KhanAcademyBadgesTests/Pods-KhanAcademyBadgesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62A1D5DBF08F2BBAA26D5BA8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KhanAcademyBadges/Pods-KhanAcademyBadges-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CA6A0AC3F8BF5214A3E24F6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KhanAcademyBadgesTests/Pods-KhanAcademyBadgesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F2BA7CB367A8E2CAF17197F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		981B8FB7DA59DCD2C8E93118 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KhanAcademyBadges/Pods-KhanAcademyBadges-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE741BE12AA29D9A613EC42E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ABE7FBB11E20401400F9620B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABE7FBBB1E20401400F9620B /* ViewController.swift in Sources */,
+				ABE7FBDF1E20480900F9620B /* BadgesVC.swift in Sources */,
+				ABCDF7F91E29E5C40025AE00 /* Badge.swift in Sources */,
+				ABE7FBE11E2049EE00F9620B /* BadgeDetailsVC.swift in Sources */,
+				ABE7FBDD1E2047ED00F9620B /* CategoriesVC.swift in Sources */,
 				ABE7FBB91E20401400F9620B /* AppDelegate.swift in Sources */,
+				ABCD82901E2420D8006483E8 /* BadgeCell.swift in Sources */,
+				ABCDF7FE1E29F3660025AE00 /* Category.swift in Sources */,
+				AB9E719A1E2C4350007F85C1 /* CategoryDetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +516,7 @@
 		};
 		ABE7FBD31E20401400F9620B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742C8EC5D050067E12C46E8C /* Pods-KhanAcademyBadges.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8UFVTJ84Q;
@@ -350,6 +530,7 @@
 		};
 		ABE7FBD41E20401400F9620B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D7D2C5B5D432ABB51904A4C /* Pods-KhanAcademyBadges.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8UFVTJ84Q;
@@ -363,6 +544,7 @@
 		};
 		ABE7FBD61E20401400F9620B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F112CC193798565143591E /* Pods-KhanAcademyBadgesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -378,6 +560,7 @@
 		};
 		ABE7FBD71E20401400F9620B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4684CBD63D85F0302C714ED /* Pods-KhanAcademyBadgesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -410,6 +593,7 @@
 				ABE7FBD41E20401400F9620B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ABE7FBD51E20401400F9620B /* Build configuration list for PBXNativeTarget "KhanAcademyBadgesTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +602,7 @@
 				ABE7FBD71E20401400F9620B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
