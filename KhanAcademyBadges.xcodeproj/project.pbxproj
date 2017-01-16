@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		83B95C8674C9F9F2720691DE /* Pods_KhanAcademyBadgesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6B17F08A2014D3A19C10C3 /* Pods_KhanAcademyBadgesTests.framework */; };
 		AB9E719A1E2C4350007F85C1 /* CategoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E71991E2C4350007F85C1 /* CategoryDetailsVC.swift */; };
+		AB9E719C1E2C6189007F85C1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9E719B1E2C6189007F85C1 /* CategoryCell.swift */; };
 		ABCD82901E2420D8006483E8 /* BadgeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD828F1E2420D8006483E8 /* BadgeCell.swift */; };
 		ABCDF7F91E29E5C40025AE00 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF7F81E29E5C40025AE00 /* Badge.swift */; };
 		ABCDF7FE1E29F3660025AE00 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCDF7FD1E29F3660025AE00 /* Category.swift */; };
@@ -39,6 +40,7 @@
 		742C8EC5D050067E12C46E8C /* Pods-KhanAcademyBadges.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhanAcademyBadges.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KhanAcademyBadges/Pods-KhanAcademyBadges.debug.xcconfig"; sourceTree = "<group>"; };
 		9D7D2C5B5D432ABB51904A4C /* Pods-KhanAcademyBadges.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhanAcademyBadges.release.xcconfig"; path = "Pods/Target Support Files/Pods-KhanAcademyBadges/Pods-KhanAcademyBadges.release.xcconfig"; sourceTree = "<group>"; };
 		AB9E71991E2C4350007F85C1 /* CategoryDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDetailsVC.swift; sourceTree = "<group>"; };
+		AB9E719B1E2C6189007F85C1 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		ABCD828F1E2420D8006483E8 /* BadgeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeCell.swift; sourceTree = "<group>"; };
 		ABCDF7F81E29E5C40025AE00 /* Badge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		ABCDF7FD1E29F3660025AE00 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		ABCD82911E2426A9006483E8 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				AB9E719B1E2C6189007F85C1 /* CategoryCell.swift */,
 				ABCD828F1E2420D8006483E8 /* BadgeCell.swift */,
 			);
 			name = Cells;
@@ -379,6 +382,7 @@
 				ABE7FBE11E2049EE00F9620B /* BadgeDetailsVC.swift in Sources */,
 				ABE7FBDD1E2047ED00F9620B /* CategoriesVC.swift in Sources */,
 				ABE7FBB91E20401400F9620B /* AppDelegate.swift in Sources */,
+				AB9E719C1E2C6189007F85C1 /* CategoryCell.swift in Sources */,
 				ABCD82901E2420D8006483E8 /* BadgeCell.swift in Sources */,
 				ABCDF7FE1E29F3660025AE00 /* Category.swift in Sources */,
 				AB9E719A1E2C4350007F85C1 /* CategoryDetailsVC.swift in Sources */,

@@ -9,7 +9,7 @@
 import UIKit
 import MBProgressHUD
 
-class BadgesVC: UITableViewController, UISearchBarDelegate{
+class BadgesVC: UITableViewController, UISearchBarDelegate {
     
     @IBOutlet var searchBar: UISearchBar!
     
@@ -21,6 +21,15 @@ class BadgesVC: UITableViewController, UISearchBarDelegate{
         super.viewDidLoad()
         
         self.getCategories()
+        
+//        if (UserDefaults.standard.array(forKey: "badges") == nil || UserDefaults.standard.array(forKey: "categories") == nil){
+//            print("User Defaults not saved")
+//            self.getCategories()
+//        } else {
+//            print ("User defaults exist")
+//            self.badges = UserDefaults.standard.array(forKey: "badges") as! [Badge]
+//            self.categories = UserDefaults.standard.array(forKey: "categories") as! [Category]
+//        }
         
         
         self.searchBar.delegate = self
@@ -106,6 +115,8 @@ class BadgesVC: UITableViewController, UISearchBarDelegate{
                     }
                     self.tableView.reloadData()
                     MBProgressHUD.hide(for: self.view, animated: true)
+                    //UserDefaults.standard.set(self.badges, forKey: "badges")
+                    //UserDefaults.standard.set(self.categories, forKey: "categories")
                 }
             } else {
                 print (error.debugDescription)
@@ -188,6 +199,4 @@ class BadgesVC: UITableViewController, UISearchBarDelegate{
             dest.badge = self.badges[(self.tableView.indexPathForSelectedRow?.row)!]
         }
     }
-    
-
 }
