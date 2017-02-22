@@ -25,17 +25,15 @@ class BadgeDetailsVC: UIViewController {
         if(badge != nil) {
             self.titleLabel.text = badge!.name
             self.categoryButton.setTitle("Category: " + self.badge!.category.name, for: .normal)
-            self.pointsLabel.text = self.badge!.points.description
+            self.pointsLabel.text = "Points: " + self.badge!.points.description
             
             let data = try? Data(contentsOf: URL(string: self.badge!.imageUrl)!)
             self.imageView.image = UIImage(data: data!)
-            self.descriptionLabel.text =  badge?.badgeDescription
+            self.descriptionLabel.text =  "Description: " +
+                (self.badge?.badgeDescription)!
         } else {
             print("Badge is nil")
         }
-        
-        
-        
         // Do any additional setup after loading the view.
     }
 
@@ -45,7 +43,7 @@ class BadgeDetailsVC: UIViewController {
     }
     
     @IBAction func moreInfo(_ sender: Any) {
-        
+        UIApplication.shared.open(URL(string: badge!.url)!, options: [:], completionHandler: nil)
     }
 
     

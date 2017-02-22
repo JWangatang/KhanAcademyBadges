@@ -16,6 +16,8 @@ class BadgesVC: UITableViewController, UISearchBarDelegate {
    // var badgeModel: BadgeModel!
     var badges = [Badge] ()
     var categories = [Category] ()
+    var filters = [String : Bool]()
+    var leastPoints = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -138,6 +140,7 @@ class BadgesVC: UITableViewController, UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
         //start searching
+        print("Search button clicked")
     }
 
     
